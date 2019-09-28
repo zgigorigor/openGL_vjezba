@@ -1,11 +1,7 @@
-<<<<<<< HEAD
 #ifndef VERTEX_BUFFER_H
 #define VERTEX_BUFFER_H
 
 
-=======
-#pragma once
->>>>>>> 64e267fd8c9833af90cc5edacb21e6e0522d6ed5
 class VertexBuffer
 {
 public:
@@ -19,7 +15,4 @@ private:
 	unsigned int _Id;
 };
 
-<<<<<<< HEAD
 #endif // !VERTEX_BUFFER_H
-=======
->>>>>>> 64e267fd8c9833af90cc5edacb21e6e0522d6ed5

@@ -1,18 +1,11 @@
-<<<<<<< HEAD
 #ifndef SHADER_H
 #define SHADER_H
 
-=======
-#pragma once
->>>>>>> 64e267fd8c9833af90cc5edacb21e6e0522d6ed5
 #include "Renderer.h"
 #include <iostream>
 #include <unordered_map>
 
-<<<<<<< HEAD
 
-=======
->>>>>>> 64e267fd8c9833af90cc5edacb21e6e0522d6ed5
 class Shader
 {
 public:
@@ -38,7 +31,4 @@ private:
 	int _getUniformLocation(const std::string& name);
 };
 
-<<<<<<< HEAD
 #endif // !SHADER_H
-=======
->>>>>>> 64e267fd8c9833af90cc5edacb21e6e0522d6ed5

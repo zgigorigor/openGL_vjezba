@@ -1,9 +1,5 @@
-<<<<<<< HEAD
 #ifndef RENDERER_H
 #define RENDERER_H
-=======
-#pragma once
->>>>>>> 64e267fd8c9833af90cc5edacb21e6e0522d6ed5
 
 #include <Gl/glew.h>
 #include "VertexArray.h"
@@ -11,10 +7,6 @@
 #include "Shader.h"
 #include "IndexBuffer.h"
 
-<<<<<<< HEAD
-
-=======
->>>>>>> 64e267fd8c9833af90cc5edacb21e6e0522d6ed5
 #define Assert(func) if(!(func));
 
 #define glVerify(func) glClearErrors();\
@@ -34,10 +26,7 @@ public:
 
 	void clear();
 	void draw(const VertexArray& vertexArray, const IndexBuffer& indexBuffer, const Shader& shader);
-<<<<<<< HEAD
+
 };
 
 #endif // !RENDERER_H
-=======
-};
->>>>>>> 64e267fd8c9833af90cc5edacb21e6e0522d6ed5

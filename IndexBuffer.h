@@ -1,11 +1,7 @@
-<<<<<<< HEAD
 #ifndef INDEX_BUFFER_H
 #define INDEX_BUFFER_H
 
 
-=======
-#pragma once
->>>>>>> 64e267fd8c9833af90cc5edacb21e6e0522d6ed5
 class IndexBuffer
 {
 public:
@@ -22,7 +18,4 @@ private:
 
 };
 
-<<<<<<< HEAD
 #endif // !INDEX_BUFFER_H
-=======
->>>>>>> 64e267fd8c9833af90cc5edacb21e6e0522d6ed5
