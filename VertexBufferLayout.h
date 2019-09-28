@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #ifndef VERTEX_BUFFER_LAYOUT_H
 #define VERTEX_BUFFER_LAYOUT_H
 
@@ -5,6 +6,12 @@
 #include <vector>
 
 
+=======
+#pragma once
+#include "Renderer.h"
+#include <vector>
+
+>>>>>>> 64e267fd8c9833af90cc5edacb21e6e0522d6ed5
 struct VertexBufferElement
 {
 	unsigned int type;
@@ -64,4 +71,7 @@ private:
 	unsigned int _stride;
 };
 
+<<<<<<< HEAD
 #endif // !VERTEX_BUFFER_LAYOUT_H
+=======
+>>>>>>> 64e267fd8c9833af90cc5edacb21e6e0522d6ed5
