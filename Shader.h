@@ -1,7 +1,6 @@
 #ifndef SHADER_H
 #define SHADER_H
 
-#include "Renderer.h"
 #include <iostream>
 #include <unordered_map>
 
@@ -25,7 +24,7 @@ private:
 	std::unordered_map<std::string, int> _uniformCache;
 
 	std::string _parseShader(const std::string& filepath);
-	unsigned int _compileShader(GLenum type, const std::string& source);
+	unsigned int _compileShader(unsigned int type, const std::string& source);
 	unsigned int _createShader(const std::string& vertexSource, const std::string& fragmentSource);
 
 	int _getUniformLocation(const std::string& name);

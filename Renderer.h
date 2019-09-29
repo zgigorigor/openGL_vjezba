@@ -3,9 +3,8 @@
 
 #include <Gl/glew.h>
 #include "VertexArray.h"
-#include "VertexBuffer.h"
-#include "Shader.h"
 #include "IndexBuffer.h"
+#include "Shader.h"
 
 #define Assert(func) if(!(func));
 
@@ -25,7 +24,7 @@ public:
 	~Renderer();
 
 	void clear();
-	void draw(const VertexArray& vertexArray, const IndexBuffer& indexBuffer, const Shader& shader);
+	void draw(const VertexArray& vertexArray, const IndexBuffer& indexBuffer, const Shader& shader) const;
 
 };
 

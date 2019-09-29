@@ -29,8 +29,8 @@ void Renderer::clear()
 
 void Renderer::draw(const VertexArray& vertexArray, const IndexBuffer& indexBuffer, const Shader& shader)
 {
+	shader.bind();
 	vertexArray.bind();
 	indexBuffer.bind();
-	shader.bind();
 	glVerify(glDrawElements(GL_TRIANGLES, indexBuffer.getCount(), GL_UNSIGNED_INT, nullptr));
 }

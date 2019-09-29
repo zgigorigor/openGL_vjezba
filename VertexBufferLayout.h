@@ -3,8 +3,6 @@
 
 #include "Renderer.h"
 #include <vector>
-#include "Renderer.h"
-#include <vector>
 
 
 struct VertexBufferElement

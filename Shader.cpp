@@ -1,7 +1,7 @@
 #include "Shader.h"
 #include <sstream>
 #include <fstream>
-
+#include "Renderer.h"
 
 
 
@@ -71,13 +71,13 @@ unsigned int Shader::_createShader(const std::string & vertexSource, const std::
 	unsigned int vertexShader = _compileShader(GL_VERTEX_SHADER, vertexSource);
 	unsigned int fragmentShader = _compileShader(GL_FRAGMENT_SHADER, fragmentSource);
 
-	glVerify(glAttachShader(program, vertexShader))
-	glVerify(glAttachShader(program, fragmentShader))
-	glVerify(glLinkProgram(program))
-	glVerify(glValidateProgram(program))
+	glVerify(glAttachShader(program, vertexShader));
+	glVerify(glAttachShader(program, fragmentShader));
+	glVerify(glLinkProgram(program));
+	glVerify(glValidateProgram(program));
 
-	glVerify(glDeleteShader(vertexShader))
-	glVerify(glDeleteShader(fragmentShader))
+	glVerify(glDeleteShader(vertexShader));
+	glVerify(glDeleteShader(fragmentShader));
 
 	return program;
 }
